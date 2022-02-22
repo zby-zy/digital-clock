@@ -22,7 +22,6 @@ int main()
         printf("Error! \n");
         exit(0);
     }
-
     while (1)
     {
         s++;
@@ -45,7 +44,5 @@ int main()
         Sleep(d);
 
         system("cls");
-
     }
-    
 }
