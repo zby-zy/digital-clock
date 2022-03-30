@@ -17,7 +17,7 @@ int main()
     printf("\nEnter second: ");
     scanf("%d", &s);
 
-    if (h>12 || m>60 || s>60)
+    if (h > 12 || m > 60 || s > 60)
     {
         printf("Error! \n");
         exit(0);
@@ -25,19 +25,19 @@ int main()
     while (1)
     {
         s++;
-        if (s>59)
+        if (s > 59)
         {
             m++;
-            s=0;
+            s = 0;
         }
-        if (m>59)
+        if (m > 59)
         {
             h++;
-            m=0;
+            m = 0;
         }
-        if (h>12)
+        if (h > 12)
         {
-            h=1;
+            h = 1;
         }
         printf("\n Clock: ");
         printf("\n %02d:%02d:%02d", h, m, s);
